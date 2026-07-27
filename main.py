@@ -1,4 +1,4 @@
-print("Hello, World!")
+print("Hello, fulks!")
 
 name=input("What is your name? ")
 
