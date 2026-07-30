@@ -17,6 +17,9 @@ arr.forEach(item => {
     count[item] = (count[item] || 0) + 1;
 });
 
+console.log('Array with their count', count);
+console.log('\n')
+
 // Print only duplicate endpoints
 for (let endpoint in count) {
     if (count[endpoint] > 1) {
