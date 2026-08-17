@@ -13,7 +13,8 @@ export default function App() {
           'https://jsonplaceholder.typicode.com/todos'
         );
 
-        
+        if(!response.ok)
+          console.log('Occured a HTTP error');
 
         const data = await response.json();
 
